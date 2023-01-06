@@ -1,5 +1,23 @@
 # Bank-Mangment-System
 
+Bank management system allows users to create new bank accounts, deposit and withdraw money from existing accounts, and view the details and balance of their accounts. The system stores account information in a MySQL database and provides functions for interacting with the database to perform these tasks.
+
+The system is implemented in Python and uses the mysql.connector module to connect to a MySQL database.
+
+The system defines several functions for interacting with the database, including functions to create new accounts, deposit and withdraw money from existing accounts, and view the details and balance of accounts.
+
+The system presents the user with a main menu containing four options:
+Create a new account
+Deposit money into an existing account
+Withdraw money from an existing account
+View the details and balance of an existing account
+
+The system stores account information in a MySQL database table called info, which has columns for the id, name, and balance of each account.
+
+The system uses the time.sleep function to pause the program and give the user time to read messages on the screen.
+
+The system has a function called endscreen which presents the user with two options: 'A' to return to the main menu or 'B' to exit the program.
+
 This code is a Python script that defines functions for interacting with a MySQL database. The functions defined in this script include all_fuc, endscreen, menu, create, deposit, withdraw, and display.
 
 The **all_fuc** function takes four arguments: no, name, amount, and Id. It appears to be a general function for interacting with the MySQL database, as it has three different branches for inserting a new record, selecting all records, and updating an existing record in the database.
